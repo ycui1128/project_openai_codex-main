@@ -1,0 +1,14 @@
+###
+POST https://api.openai.com/v1/completions
+Content-Type: application/json
+Authorization: Bearer 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
+
+{
+    "model":"text-davinci-003",
+     "prompt": "hello",
+     "max_tokens": 512,
+     "temperature": 0.5,
+     "top_p": 1,
+     "frequency_penalty": 0,
+     "presence_penalty": 0
+}
